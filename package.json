@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test:source": "source .env && echo $TEST"
+    "test:source": "bash -c 'source .env && echo $TEST' && yarn node index.js"
   }
 }
